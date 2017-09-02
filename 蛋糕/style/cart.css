@@ -1,0 +1,68 @@
+.header{width: 100%;height: 100px;background: #f5f5f5;}
+.header .header_box{width: 1200px;height: 100px;margin: 0 auto;}
+.header .header_box .header_l{width: 240px;height: 100px;float: left;line-height: 100px;}
+.header .header_box .header_l img{width: 100%;height: auto;}
+.header .header_box .header_r{width: 450px;height: 100px;float: right;line-height: 100px;}
+
+.line{width: 100%;height: 2px;background: #C81623;;}
+
+form{width: 100%;height: 245px;background: #f5f5f5;}
+form .cartcon_box{width: 1200px;height: 245px;margin: 0 auto;padding-top: 10px;}
+form .cartcon_box .cart_list{width: 1200px;height: 181px;background: #fff;margin-bottom: 5px;}
+form .cartcon_box .cart_list .list_head{height: 70px;line-height: 70px;color: #424242;font-size: 16px;border-bottom: 1px solid #e0e0e0;}
+form .cartcon_box .cart_list .list_head .col{float: left;}
+form .cartcon_box .cart_list .list_head .col-img{width: 160px;padding-left: 10px;}
+form .cartcon_box .cart_list .list_head .col-name{width: 420px;}
+form .cartcon_box .cart_list .list_head .col-price{width: 159px;padding-right: 84px;text-align: right;}
+form .cartcon_box .cart_list .list_head .col-num{width: 150px;text-align: center;}
+form .cartcon_box .cart_list .list_head .col-total{width: 201px;padding-right: 81px;text-align: right;}
+form .cartcon_box .cart_list .list_head .col-action{width: 80px;text-align: center;}
+form .cartcon_box .cart_list .list-body{width: 1200px;height: 110px;background: #fff;padding: 15px 26px 15px 0;}
+form .cartcon_box .cart_list .list-body .item-table{}
+form .cartcon_box .cart_list .list-body .item-table .col-img{width: 120px;height: 80px;margin-right: 40px;overflow: hidden;text-indent: 10px;float: left;}
+form .cartcon_box .cart_list .list-body .item-table .col-img a{width: 60px;height: 60px;}
+form .cartcon_box .cart_list .list-body .item-table .col-img a img{width: 60px;height: 60px;}
+form .cartcon_box .cart_list .list-body .item-table .col-name{width: 420px;float: left;}
+form .cartcon_box .cart_list .list-body .item-table .col-name h3{margin-bottom: 8px;margin-top: 8px;}
+form .cartcon_box .cart_list .list-body .item-table .col-name h3 a{font-size: 18px;}
+form .cartcon_box .cart_list .list-body .item-table .col-name p{color: #757575;font-size: 12px;}
+form .cartcon_box .cart_list .list-body .item-table .col-price{float: left;width: 159px;height: 80px;padding-right: 84px;text-align: right;font-size: 16px;line-height: 80px;}
+form .cartcon_box .cart_list .list-body .item-table .col-num{float: left;font-size: 16px;}
+form .cartcon_box .cart_list .list-body .item-table .col-num .change-goods-num{width: 148px;height: 38px;border: 1px solid #e0e0e0;text-align: center;margin-top: 20px;}
+form .cartcon_box .cart_list .list-body .item-table .col-num .change-goods-num .J_minus{float: left;width: 37px;height: 37px;line-height: 36px;color: #757575;font-size: 20px;}
+form .cartcon_box .cart_list .list-body .item-table .col-num .change-goods-num input{float: left;width: 72px;height: 36px;line-height: 36px;border: none;color: #424242;font-size: 16px;text-align: center;}
+form .cartcon_box .cart_list .list-body .item-table .col-num .change-goods-num .J_plus{float: left;width: 37px;height: 37px;line-height: 36px;color: #757575;font-size: 20px;}
+form .cartcon_box .cart_list .list-body .item-table .col-num .change-goods-num a i{font-weight: 600;}
+form .cartcon_box .cart_list .list-body .item-table .col-num .change-goods-num a:hover{display: block;background: #e0e0e0;transition: 0.5s ease all;}
+form .cartcon_box .cart_list .list-body .item-table .col-total{float: left;width: 200px;height: 80px;padding-right: 81px;text-align: right;line-height: 80px;color: #ff6700;font-size: 16px;}
+form .cartcon_box .cart_list .list-body .item-table .col-action{float: left;width: 80px;height: 80px;text-align: center;line-height: 80px;}
+form .cartcon_box .cart_list .list-body .item-table .col-action a{display: inline-block;width: 24px;height: 24px;line-height: 24px;text-align: center;border-radius: 12px;color: #757575;font-size: 16px;}
+form .cartcon_box .cart_list .list-body .item-table .col-action a i{font-weight: 600;}
+form .cartcon_box .cart_list .list-body .item-table .col-action a:hover{background: #e53935;color: #fff;transition: 0.5s ease all;}
+form .cartcon_box .cart-bar{width: 1200px;height: 50px;background: #fff;font-size: 14px;}
+form .cartcon_box .cart-bar .section-left{float: left;}
+form .cartcon_box .cart-bar .section-left a{line-height: 45px;margin-left: 32px;color: #757575;}
+form .cartcon_box .cart-bar .section-left span{margin-left: 16px;padding-left: 16px;border-left: 1px solid #eee;color: #757575;}
+form .cartcon_box .cart-bar .section-left span i{color: #ff6700;}
+form .cartcon_box .cart-bar .section-right{float: right;width: 380px;height: 50px;}
+form .cartcon_box .cart-bar .section-right span{padding-left: 13px;color: #ff6700;}
+form .cartcon_box .cart-bar .section-right span em{font-size: 30px;}
+form .cartcon_box .cart-bar .section-right a{width: 200px;height: 45px;line-height: 45px;font-size: 18px;margin-left: 50px;display: inline-block;text-align: center;background: #ff6700;color: #fff;}
+
+.tjxg{width: 100%;height: 450px;background:#f5f5f5; }
+.tjxg .tjxg_box{width: 1200px;height: 450px;margin: 0 auto;}
+.tjxg .tjxg_box .tjxg_top{width: 1200px;height: 100px;padding-top: 49px;}
+.tjxg .tjxg_box .tjxg_top .x{width: 1200px;height: 1px;background: #e0e0e0;position: relative;}
+.tjxg .tjxg_box .tjxg_top .x span{font-size: 30px;color: #757575;width: 482px;height: 40px;display: block;background: #f5f5f5;position: absolute;top: -20px;left:359px;text-align: center;}
+.tjxg .tjxg_box ul{width: 1200px;height: 315px;}
+.tjxg .tjxg_box ul li{width: 232px;height: 315px; background: #fff;float: left;margin-right: 10px;text-align: center;overflow: hidden;}
+.tjxg .tjxg_box ul li:last-child{margin-right: 0px;}
+.tjxg .tjxg_box ul li .tjxg_pic{width: 175px;height: 228px;margin: 0 auto;margin-bottom: 15px;}
+.tjxg .tjxg_box ul li .tjxg_pic img{width: 100%;height: auto;}
+.tjxg .tjxg_box ul li:hover .tjxg_pic img{transition: 0.5s ease all;transform: scale(1.1);}
+.tjxg .tjxg_box ul li a{display: block;font-size: 15px;color: #333333;margin-bottom: 10px;}
+.tjxg .tjxg_box ul li p{font-size: 15px;color: #ff671f;}
+
+
+
+

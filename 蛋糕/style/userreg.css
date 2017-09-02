@@ -1,0 +1,34 @@
+.header{width: 100%;height: 100px;}
+.header .header_box{width: 1200px;height: 100px;margin: 0 auto;}
+.header .header_box .header_l{width: 240px;height: 100px;float: left;line-height: 100px;}
+.header .header_box .header_l img{width: 100%;height: auto;}
+.header .header_box .zc{width: 100px;height: 100px;line-height: 100px;float: left;text-align: center;margin-left: 30px;}
+.header .header_box .zc p{color: #333;font-size: 16px;}
+.header .header_box .header_r{width: 130px;height: 100px;text-align: center;line-height: 100px;float: right;margin-right: 50px;}
+.header .header_box .header_r p{font-size: 15px;color: #777777;}
+.header .header_box .header_r p a{font-size: 15px;color:#cc0000;}
+
+.line{width: 100%;height: 4px;background: url(../images/line_ico.png);}
+
+.zc{width: 100%;height: 622px;}
+.zc form{width: 1200px;height: 600px;margin: 0 auto;padding-top: 50px;}
+.zc form .userreg{width: 860px;height: 522px;margin: 0 auto;}
+.zc form .userreg .userreg_l{width: 400px;height: 494px;float: left;}
+.zc form .userreg .userreg_l ul{width: 400px;height: 350px;}
+.zc form .userreg .userreg_l ul li{width: 400px;height: 45px;margin-bottom: 25px;border:1px #ddd solid;padding:12px;}
+.zc form .userreg .userreg_l ul li label{width: 100px;display: block;float: left;font-size: 14px;color: #000;}
+.zc form .userreg .userreg_l ul li input{float: left;border: none;line-height: 18px;width: 200px;height: 20px;}
+.zc form .userreg .userreg_l ul li img{float: right;}
+.zc form .userreg .userreg_l ul li #phonecodeqr{width:170px;float: left; }
+.zc form .userreg .userreg_l ul li .dxyzm{width: 100px;height: 40px;cursor: pointer;position: absolute;padding: 10px;margin-top: -10.5px;margin-left: 1px;}
+.zc form .userreg .userreg_l .xy{width: 400px;height: 20px;line-height: 20px;color: #666;font-size: 12px;margin-top: 10px;margin-bottom: 30px;}
+.zc form .userreg .userreg_l .xy a{color: #38f;font-size: 12px;}
+.zc form .userreg .userreg_l .zc_btn{}
+.zc form .userreg .userreg_l .zc_btn button{width: 400px;height: 54px;background: #F25454;color: #fff;border: none;font-size: 16px;}
+.zc form .userreg .min{width: 99px;height: 490px;float: left;border-right: 1px solid #eee;}
+.zc form .userreg .userreg_r{width: 360px;float: right;text-align: center;}
+.zc form .userreg .userreg_r p{font-size: 14px;color: #000;margin-bottom: 25px;}
+
+
+
+

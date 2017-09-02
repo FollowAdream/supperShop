@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>七彩蛋糕-我想要的幸福</title>
+	<link rel="shortcut icon" href="images/favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="style/base.css">
+	<link rel="stylesheet" type="text/css" href="style/list.css">
+  <script src="js/jquery-1.8.3.min.js"></script>
+</head>
+<body>
+<!--topbar-->
+<div class="topbar">
+  <div class="topbar_top">
+    <div class="top_box">
+      <div class="top_l"> 七彩蛋糕-蛋糕配送专家 <a href="userlogin.html">登录</a> <span>|</span> <a href="userreg.html">注册</a> </div>
+      <ul>
+        <li> <a href="#">我的账户</a><i class="iconfont">&#xe601;</i>|
+          <dl class="submenu">
+            <dt><a href="#">我的订单</a></dt>
+            <dt><a href="#">补交货款</a></dt>
+            <dt><a href="#">我的余额</a></dt>
+            <dt><a href="#">我的收藏</a></dt>
+            <dt><a href="#">用户中心</a></dt>
+            <dt><a href="#">修改资料</a></dt>
+          </dl>
+        </li>
+        <li> <a href="#">补交货款</a>| </li>
+        <li> <a href="#">付款方式</a>| </li>
+        <li> <a href="#">配送查询</a>| </li>
+        <li> <a href="#">订单查询</a>| </li>
+        <li> <a href="#">帮助中心</a> </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!--topbar end--> 
+
+<!--head-->
+<div class="head">
+  <div class="head_box">
+    <h1><a href="index.html"><img src="images/logo.png"></a></h1>
+    <div class="search">
+      <form class="search_box">
+        <input class="keyinput" type="text" value="" name="keyworld">
+        <input class="keysub" type="submit" value="搜索">
+      </form>
+      <div class="hot"> <a href="#">生日蛋糕</a> <a href="#">巧克力蛋糕</a> <a href="#">快到碗里来</a> <a href="#">生日鲜花</a> <a href="#">商业用花</a> </div>
+    </div>
+    <div class="car_box"> <a href="cart.html" class="cart"> <i class="car"><img src="images/cartico.png"></i> <span>我的购物车</span> <i class="car_num">0</i> <i class="iconfont">&#xe60b;</i> </a> 
+      <!--dropdown_layer-->
+      <div class="dropdown_layer"> <img src="images/cart-none.png">
+        <p>购物车中还没有商品，赶紧选购吧！ <a href="#">去首页看看</a></p>
+      </div>
+      <!--dropdown_layer end--> 
+    </div>
+  </div>
+</div>
+<!--head end--> 
+
+<!--nav-->
+<div class="nav">
+  <div class="nav_box">
+    <div class="allmenu"> <a href="#">全部商品分类<span></span></a>
+      <div class="menu">
+        <ul>
+          <li>
+            <dl>
+              <dt><a href="#">蛋糕、生日蛋糕、卡通蛋糕</a></dt>
+            </dl>
+            <div class="sub_layer">
+              <div class="sub_box">
+                <dl class="clearfix">
+                  <dt> <a href="#">按用途<i>&gt;</i></a> </dt>
+                  <dd> <a href="#">生日蛋糕</a> <a href="#">祝寿蛋糕</a> <a href="#">庆典蛋糕</a> <a href="#">祝福蛋糕</a> </dd>
+                </dl>
+                <dl class="clearfix">
+                  <dt> <a href="#">按对象<i>&gt;</i></a> </dt>
+                  <dd> <a href="#">送恋人</a> <a href="#">送家人</a> <a href="#">送朋友</a> <a href="#">送儿童</a> </dd>
+                </dl>
+                <dl class="clearfix">
+                  <dt> <a href="#">按材料<i>&gt;</i></a> </dt>
+                  <dd> <a href="#">水果蛋糕</a> <a href="#">鲜奶蛋糕</a> <a href="#">慕斯蛋糕</a> <a href="#">翻糖蛋糕</a> <a href="#">巧克力蛋糕</a> <a href="#">芝士蛋糕</a> <a href="#">黑森林蛋糕</a> <a href="#">冰激凌蛋糕</a> <a href="#">抹茶蛋糕</a> <a href="#">提拉米苏蛋糕</a> </dd>
+                </dl>
+                <dl class="clearfix">
+                  <dt> <a href="#">按造型<i>&gt;</i></a> </dt>
+                  <dd> <a href="#">欧式蛋糕</a> <a href="#">圆形蛋糕</a> <a href="#">多层蛋糕</a> <a href="#">方形蛋糕</a> <a href="#">心形蛋糕</a> <a href="#">卡通蛋糕</a> <a href="#">星座蛋糕</a> <a href="#">麻将蛋糕</a> <a href="#">生肖蛋糕</a> <a href="#">彩虹蛋糕</a> <a href="#">创意蛋糕</a> </dd>
+                </dl>
+              </div>
+              <div class="sub_r"> <a href="#"> <img src="images/ceng_dg.jpg"> </a> </div>
+            </div>
+          </li>
+          <li>
+            <dl>
+              <dt><a href="#">鲜花、玫瑰、百合、生日鲜花</a></dt>
+            </dl>
+            <div class="sub_layer">
+              <div class="sub_box">
+                <dl class="clearfix">
+                  <dt> <a href="#">按用途<i>&gt;</i></a> </dt>
+                  <dd> <a href="#">生日快乐</a> <a href="#">爱情鲜花</a> <a href="#">慰问祝福</a> <a href="#">道歉鲜花</a> <a href="#">商务用花</a> </dd>
+                </dl>
+                <dl class="clearfix">
+                  <dt> <a href="#">按对象<i>&gt;</i></a> </dt>
+                  <dd> <a href="#">送女友</a> <a href="#">送男友</a> <a href="#">送朋友</a> <a href="#">送母亲</a> <a href="#">送父亲</a> <a href="#">送领导</a> <a href="#">送老师</a> <a href="#">送长辈</a> </dd>
+                </dl>
+                <dl class="clearfix">
+                  <dt> <a href="#">按花材<i>&gt;</i></a> </dt>
+                  <dd> <a href="#">玫瑰</a> <a href="#">百合</a> <a href="#">康乃馨</a> <a href="#">永生花</a> <a href="#">向日葵</a> <a href="#">满天星</a> <a href="#">勿忘我</a> <a href="#">扶郎</a> <a href="#">雏菊</a> <a href="#">红掌</a> <a href="#">郁金香</a> <a href="#">马蹄莲</a> </dd>
+                </dl>
+                <dl class="clearfix">
+                  <dt> <a href="#">按枝数<i>&gt;</i></a> </dt>
+                  <dd> <a href="#">9 枝</a> <a href="#">11 枝</a> <a href="#">12 枝</a> <a href="#">18 枝</a> <a href="#">19枝</a> <a href="#">21枝</a> <a href="#">24枝</a> <a href="#">29枝</a> <a href="#">33枝</a> <a href="#">50枝</a> <a href="#">66枝</a> <a href="#">99枝</a> <a href="#">101枝</a> <a href="#">108枝</a> <a href="#">365枝</a> <a href="#">999枝</a> <a href="#">其他枝数</a> </dd>
+                </dl>
+                <dl class="clearfix">
+                  <dt> <a href="#">按价格<i>&gt;</i></a> </dt>
+                  <dd> <a href="#">200以下</a> <a href="#">200-300元</a> <a href="#">300-400元</a> <a href="#">400-600元</a> <a href="#">600-800元</a> <a href="#">800-1000元</a> <a href="#">1000以上</a> </dd>
+                </dl>
+                <dl class="clearfix">
+                  <dt> <a href="#">植物<i>&gt;</i></a> </dt>
+                  <dd> <a href="#">盆栽绿植</a> <a href="#">200-盆栽鲜花</a> </dd>
+                </dl>
+              </div>
+              <div class="sub_r"> <a href="#"> <img src="images/ceng_xh.jpg"> </a> </div>
+            </div>
+          </li>
+          <li>
+            <dl>
+              <dt><a href="#">红酒、法国红酒、白葡萄酒</a></dt>
+            </dl>
+            <div class="sub_layer">
+              <div class="sub_box">
+                <dl class="clearfix">
+                  <dt> <a href="#">原产地<i>&gt;</i></a> </dt>
+                  <dd> <a href="#">法国</a> <a href="#">意大利</a> <a href="#">西班牙</a> <a href="#">德国</a> <a href="#">美国</a> <a href="#">澳大利亚</a> <a href="#">智利</a> <a href="#">南非</a> <a href="#">加拿大</a> </dd>
+                </dl>
+                <dl class="clearfix">
+                  <dt> <a href="#">按类型<i>&gt;</i></a> </dt>
+                  <dd> <a href="#">红葡萄酒</a> <a href="#">白葡萄酒</a> <a href="#">桃红葡萄酒</a> <a href="#">起泡酒</a> <a href="#">加强葡萄酒</a> <a href="#">烈酒</a> </dd>
+                </dl>
+                <dl class="clearfix">
+                  <dt> <a href="#">按价格<i>&gt;</i></a> </dt>
+                  <dd> <a href="#">1-99元</a> <a href="#">100-199元</a> <a href="#">200-299元</a> <a href="#">500-799元</a> <a href="#">800-999元</a> <a href="#">1000元以上</a> </dd>
+                </dl>
+                <dl class="clearfix">
+                  <dt> <a href="#">按品种<i>&gt;</i></a> </dt>
+                  <dd> <a href="#">赤霞珠</a> <a href="#">黑皮诺</a> <a href="#">美乐</a> <a href="#">西拉/设拉</a> <a href="#">马尔贝克</a> <a href="#">内比奥罗</a> <a href="#">黑歌海娜</a> <a href="#">霞多丽</a> <a href="#">雷司令</a> <a href="#">长相思</a> <a href="#">佳丽酿</a> <a href="#">神索</a> <a href="#">哥伦白</a> <a href="#">白玉霓</a> <a href="#">歌海娜</a> <a href="#">品丽珠</a> <a href="#">赛美容</a> <a href="#">密斯卡岱</a> <a href="#">慕合怀特</a> <a href="#">皮诺塔吉</a> <a href="#">加尔纳恰</a> <a href="#">佳美娜</a> <a href="#">丹魄</a> <a href="#">麝香葡萄</a> <a href="#">混合</a> </dd>
+                </dl>
+              </div>
+              <div class="sub_r"> <a href="#"> <img src="images/ceng_hj.jpg" > </a> </div>
+            </div>
+          </li>
+          <li>
+            <dl>
+              <dt><a href="#">巧克力、费列罗、德芙</a></dt>
+            </dl>
+            <div class="sub_layer">
+              <div class="sub_box">
+                <dl class="clearfix">
+                  <dt> <a href="#">按品牌<i>&gt;</i></a> </dt>
+                  <dd> <a href="#">德芙巧克力</a> <a href="#">金帝巧克力</a> <a href="#">费列罗巧克力</a> </dd>
+                </dl>
+                <dl class="clearfix">
+                  <dt> <a href="#">按价格<i>&gt;</i></a> </dt>
+                  <dd> <a href="#">200以下</a> <a href="#">200-300元</a> <a href="#">300-500元</a> <a href="#">500以上</a> </dd>
+                </dl>
+              </div>
+              <div class="sub_r"> <a href="#"> <img src="images/ceng_qkl.jpg"> </a> </div>
+            </div>
+          </li>
+          <li>
+            <dl>
+              <dt><a href="#">浪漫组合、蛋糕+鲜花</a></dt>
+            </dl>
+            <div class="sub_layer">
+              <div class="sub_box">
+                <dl class="clearfix">
+                  <dt> <a href="#">按品牌<i>&gt;</i></a> </dt>
+                  <dd> <a href="#">鲜花+蛋糕</a> <a href="#">鲜花+巧克力</a> <a href="#">鲜花+红酒</a> <a href="#">鲜花+毛绒玩具</a> <a href="#">卡通花束+巧克力</a> </dd>
+                </dl>
+              </div>
+              <div class="sub_r"> <a href="#"> <img src="images/ceng_lm11.jpg"> </a> </div>
+            </div>
+          </li>
+          <li>
+            <dl>
+              <dt><a href="#">商业花篮、开业用花</a></dt>
+            </dl>
+            <div class="sub_layer">
+              <div class="sub_box">
+                <dl class="clearfix">
+                  <dt> <a href="#">按种类<i>&gt;</i></a> </dt>
+                  <dd> <a href="#">商业花篮</a> <a href="#">会议桌花</a> <a href="#">礼仪胸花</a> <a href="#">盆栽绿植</a> <a href="#">盆栽鲜花</a> </dd>
+                </dl>
+                <dl class="clearfix">
+                  <dt> <a href="#">按价格<i>&gt;</i></a> </dt>
+                  <dd> <a href="#">200元以下</a> <a href="#">200-300元</a> <a href="#">300-500元</a> <a href="#">500元以上</a> </dd>
+                </dl>
+              </div>
+              <div class="sub_r"> <a href="#"> <img src="images/ceng_syhl.jpg"> </a> </div>
+            </div>
+          </li>
+          <li>
+            <dl>
+              <dt><a href="#">卡通花束、创意花束</a></dt>
+            </dl>
+            <div class="sub_layer">
+              <div class="sub_box">
+                <dl class="clearfix">
+                  <dt> <a href="#">按种类<i>&gt;</i></a> </dt>
+                  <dd> <a href="#">考拉熊</a> <a href="#">婚纱熊</a> <a href="#">关节熊</a> <a href="#">小猪仔</a> <a href="#">小兔子</a> <a href="#">KITTY猫</a> <a href="#">迷糊娃娃</a> <a href="#">史努比</a> <a href="#">仿真花</a> </dd>
+                </dl>
+                <dl class="clearfix">
+                  <dt> <a href="#">按只数<i>&gt;</i></a> </dt>
+                  <dd> <a href="#">5只</a> <a href="#">6只</a> <a href="#">8只</a> <a href="#">9只</a> <a href="#">11只</a> <a href="#">12只</a> <a href="#">18只</a> <a href="#">19只</a> <a href="#">21只</a> <a href="#">29只</a> <a href="#">33只</a> <a href="#">其他只数</a> </dd>
+                </dl>
+                <dl class="clearfix">
+                  <dt> <a href="#">按价格<i>&gt;</i></a> </dt>
+                  <dd> <a href="#">200元以下</a> <a href="#">200-300元</a> <a href="#">300-500元</a> <a href="#">500元以上</a> </dd>
+                </dl>
+              </div>
+              <div class="sub_r"> <a href="#"> <img src="images/ceng_kths.jpg"> </a> </div>
+            </div>
+          </li>
+          <li>
+            <dl>
+              <dt><a href="#">毛绒玩具、可爱熊</a></dt>
+            </dl>
+            <div class="sub_layer">
+              <div class="sub_box">
+                <dl class="clearfix">
+                  <dt> <a href="#">按种类<i>&gt;</i></a> </dt>
+                  <dd> <a href="#">小熊系列</a> <a href="#">小猪系列</a> <a href="#">小猫系列</a> <a href="#">小猴系列</a> <a href="#">小兔系列</a> <a href="#">小龙系列</a> <a href="#">其他系列</a> </dd>
+                </dl>
+                <dl class="clearfix">
+                  <dt> <a href="#">按价格<i>&gt;</i></a> </dt>
+                  <dd> <a href="#">200元以下</a> <a href="#">200-300元</a> <a href="#">300-500元</a> <a href="#">500元以上</a> </dd>
+                </dl>
+              </div>
+              <div class="sub_r"> <a href="#"> <img src="images/ceng_mrwj.jpg"> </a> </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <ul class="nav_min">
+      <li> <a href="#">首页</a> </li>
+      <li> <a href="#">生日蛋糕</a> </li>
+      <li> <a href="#">儿童蛋糕</a> </li>
+      <li> <a href="#">祝寿蛋糕</a> </li>
+      <li> <a href="#">水果蛋糕</a> </li>
+      <li> <a href="#">多层蛋糕</a> </li>
+      <li> <a href="#">鲜花+蛋糕</a> </li>
+      <li> <a href="#">鲜花</a> </li>
+      <li> <a href="#">红酒</a> </li>
+      <li class="menu_r">400-658-1177</li>
+    </ul>
+  </div>
+</div>
+<!--nav end--> 
+
+<div class="list-top">
+  <a href="index.html">首页</a>
+  <span>>蛋糕</span>
+</div>
+<div class="listTSDiv">
+  <p>您已选择: <span><a href="#">生日蛋糕x</a></span></p>
+</div>
+<div class="typeborder">
+  <ul>
+    <span>按用途</span>
+    <li><a href="#">全部</a></li>
+    <li style="background: #cc0033;border-radius: 32%;"><a href="#" style="color: #fff;">生日蛋糕</a></li>
+    <li><a href="#">祝寿蛋糕</a></li>
+    <li><a href="#">庆典蛋糕</a></li>
+    <li><a href="#">祝福蛋糕</a></li>
+  </ul>
+  <ul>
+    <span>按对象</span>
+    <li style="background: #cc0033;border-radius: 32%;"><a href="#" style="color: #fff;">全部</a></li>
+    <li><a href="#">送恋人</a></li>
+    <li><a href="#">送家人</a></li>
+    <li><a href="#">送长辈</a></li>
+    <li><a href="#">送儿童</a></li>
+    <li><a href="#">送朋友</a></li>
+  </ul>
+  <ul>
+    <span>按材料</span>
+    <li style="background: #cc0033;border-radius: 32%;"><a href="#" style="color: #fff;">全部</a></li>
+    <li><a href="#">水果蛋糕</a></li>
+    <li><a href="#">鲜奶蛋糕</a></li>
+    <li><a href="#">慕斯蛋糕</a></li>
+    <li><a href="#">翻糖蛋糕</a></li>
+    <li><a href="#">巧克力蛋糕</a></li>
+    <li><a href="#">芝士蛋糕</a></li>
+    <li><a href="#">黑森林蛋糕</a></li>
+    <li><a href="#">冰激凌蛋糕</a></li>
+    <li><a href="#">抹茶蛋糕</a></li>
+    <li><a href="#">提拉米苏蛋糕</a></li>
+  </ul>
+  <ul>
+    <span>按造型</span>
+    <li style="background: #cc0033;border-radius: 32%;"><a href="#" style="color: #fff;">全部</a></li>
+    <li><a href="#">欧式蛋糕</a></li>
+    <li><a href="#">圆形蛋糕</a></li>
+    <li><a href="#">多层蛋糕</a></li>
+    <li><a href="#">方形蛋糕</a></li>
+    <li><a href="#">心形蛋糕</a></li>
+    <li><a href="#">卡通蛋糕</a></li>
+    <li><a href="#">星座蛋糕</a></li>
+    <li><a href="#">麻将蛋糕</a></li>
+    <li><a href="#">生肖蛋糕</a></li>
+    <li><a href="#">彩虹蛋糕</a></li>
+    <li><a href="#">创意蛋糕</a></li>
+  </ul>
+  <div class="sub">
+    <p>共有商品 <span>259</span> 件，当前为：第 <span>1</span> 到 <span>60</span> 件</p>
+  </div>
+</div>
+<ul class="ceng1">
+        <li class="qt">
+          <div class="kuang">
+            <div class="pro"> <a href="#"> <img src="images/cake03.jpg"> </a> </div>
+            <div class="pro_name"> <span>我想要的幸福</span>
+              <p>圆形欧式水果蛋糕，各色时令水果方格式艺术</p>
+            </div>
+            <div class="propice">￥188</div>
+          </div>
+        </li>
+        <li class="qt">
+          <div class="kuang">
+            <div class="pro"> <a href="#"> <img src="images/cake04.jpg"> </a> </div>
+            <div class="pro_name"> <span>想念  编号：711687</span>
+              <p>圆形水果蛋糕，水果铺面，白色巧克力围边</p>
+            </div>
+            <div class="propice">￥188</div>
+          </div>
+        </li>
+        <li class="qt">
+          <div class="kuang">
+            <div class="pro"> <a href="#"> <img src="images/cake05.jpg"> </a> </div>
+            <div class="pro_name"> <span>梦幻芭比  编号：701716</span>
+              <p>新鲜奶油、戚风水果夹层蛋糕胚（芭比随机搭</p>
+            </div>
+            <div class="propice">￥198</div>
+          </div>
+        </li>
+        <li class="qt">
+          <div class="kuang">
+            <div class="pro"> <a href="#"> <img src="images/cake06.jpg"> </a> </div>
+            <div class="pro_name"> <span>梦幻芭比  编号：701716</span>
+              <p>新鲜奶油、戚风水果夹层蛋糕胚（芭比随机搭</p>
+            </div>
+            <div class="propice">￥198</div>
+          </div>
+        </li>
+        <li class="qt">
+          <div class="kuang">
+            <div class="pro"> <a href="#"> <img src="images/cake07.jpg"> </a> </div>
+            <div class="pro_name"> <span>梦幻芭比  编号：701716</span>
+              <p>新鲜奶油、戚风水果夹层蛋糕胚（芭比随机搭</p>
+            </div>
+            <div class="propice">￥198</div>
+          </div>
+        </li>
+        <li class="qt">
+          <div class="kuang">
+            <div class="pro"> <a href="#"> <img src="images/cake08.jpg"> </a> </div>
+            <div class="pro_name"> <span>梦幻芭比  编号：701716</span>
+              <p>新鲜奶油、戚风水果夹层蛋糕胚（芭比随机搭</p>
+            </div>
+            <div class="propice">￥198</div>
+          </div>
+        </li>
+        <li class="qt">
+          <div class="kuang">
+            <div class="pro"> <a href="#"> <img src="images/cake09.jpg"> </a> </div>
+            <div class="pro_name"> <span>梦幻芭比  编号：701716</span>
+              <p>新鲜奶油、戚风水果夹层蛋糕胚（芭比随机搭</p>
+            </div>
+            <div class="propice">￥198</div>
+          </div>
+        </li>
+        <li class="qt">
+          <div class="kuang">
+            <div class="pro"> <a href="#"> <img src="images/cake11.jpg"> </a> </div>
+            <div class="pro_name"> <span>心花怒放  编号：880029</span>
+              <p>圆形奶油蛋糕，原味戚风胚</p>
+            </div>
+            <div class="propice">￥228</div>
+          </div>
+        </li>
+        <li class="qt">
+          <div class="kuang">
+            <div class="pro"> <a href="#"> <img src="images/cake12.jpg"> </a> </div>
+            <div class="pro_name"> <span>美味情缘  编号：701718</span>
+              <p>新鲜奶油、玫瑰花瓣围边</p>
+            </div>
+            <div class="propice">￥198</div>
+          </div>
+        </li>
+        <li class="qt">
+          <div class="kuang">
+            <div class="pro"> <a href="#"> <img src="images/cake13.jpg"> </a> </div>
+            <div class="pro_name"> <span>狮子座专属蛋糕  编号：701722</span>
+              <p>圆形鲜奶蛋糕，狮子座蛋糕</p>
+            </div>
+            <div class="propice">￥198</div>
+          </div>
+        </li>
+        <li class="qt">
+          <div class="kuang">
+            <div class="pro"> <a href="#"> <img src="images/cake14.jpg"> </a> </div>
+            <div class="pro_name"> <span>浪漫定制  编号：701720</span>
+              <p>数码蛋糕，新鲜奶油搭配时令水果，食用糯米</p>
+            </div>
+            <div class="propice">￥298</div>
+          </div>
+        </li>
+        <li class="qt">
+          <div class="kuang">
+            <div class="pro"> <a href="#"> <img src="images/cake15.jpg"> </a> </div>
+            <div class="pro_name"> <span>奖状数码蛋糕  编号：721035</span>
+              <p>新鲜奶油搭配时令水果；奖状为食用糯米纸打</p>
+            </div>
+            <div class="propice">￥298</div>
+          </div>
+        </li>
+        <li class="qt">
+          <div class="kuang">
+            <div class="pro"> <a href="#"> <img src="images/cake16.jpg"> </a> </div>
+            <div class="pro_name"> <span>七里香  编号：801081</span>
+              <p>芒果慕斯蛋糕，巧克力围边</p>
+            </div>
+            <div class="propice">￥298</div>
+          </div>
+        </li>
+        <li class="qt">
+          <div class="kuang">
+            <div class="pro"> <a href="#"> <img src="images/cake18.jpg"> </a> </div>
+            <div class="pro_name"> <span>生日快乐  编号：711701</span>
+              <p>圆形欧式水果蛋糕，拇指饼干围边</p>
+            </div>
+            <div class="propice">￥188</div>
+          </div>
+        </li>
+        <li class="qt">
+          <div class="kuang">
+            <div class="pro"> <a href="#"> <img src="images/cake19.jpg"> </a> </div>
+            <div class="pro_name"> <span>美好祝愿  编号：711688</span>
+              <p>心形水果蛋糕，水果艺术装饰，巧克力碎屑围</p>
+            </div>
+            <div class="propice">￥198</div>
+          </div>
+        </li>
+        <li class="qt">
+          <div class="kuang">
+            <div class="pro"> <a href="#"> <img src="images/cake20.jpg"> </a> </div>
+            <div class="pro_name"> <span>不变的心  编号：711693</span>
+              <p>心形欧式水果蛋糕，各色水果、巧克力片心形</p>
+            </div>
+            <div class="propice">￥198</div>
+          </div>
+        </li>
+        <li class="qt">
+          <div class="kuang">
+            <div class="pro"> <a href="#"> <img src="images/cake25.jpg"> </a> </div>
+            <div class="pro_name"> <span>想念  编号：711687</span>
+              <p>圆形水果蛋糕，水果铺面，白色巧克力围边</p>
+            </div>
+            <div class="propice">￥188</div>
+          </div>
+        </li>
+        <li class="qt">
+          <div class="kuang">
+            <div class="pro"> <a href="#"> <img src="images/cake26.jpg"> </a> </div>
+            <div class="pro_name"> <span>妈妈，我爱您  编号：701713</span>
+              <p>圆形奶油蛋糕，选用新鲜奶油、原味戚风蛋糕</p>
+            </div>
+            <div class="propice">￥188</div>
+          </div>
+        </li>
+        <li class="qt">
+          <div class="kuang">
+            <div class="pro"> <a href="#"> <img src="images/cake27.jpg"> </a> </div>
+            <div class="pro_name"> <span>“麻”到成功  编号：711699</span>
+              <p>圆形欧式水果蛋糕，巧克力麻将、各色时令水</p>
+            </div>
+            <div class="propice">￥228</div>
+          </div>
+        </li>
+        <li class="qt">
+          <div class="kuang">
+            <div class="pro"> <a href="#"> <img src="images/cake28.jpg"> </a> </div>
+            <div class="pro_name"> <span>寿山福海  编号：707060</span>
+              <p>三层鲜奶蛋糕,上层做成蟠桃。</p>
+            </div>
+            <div class="propice">￥498</div>
+          </div>
+        </li>
+</ul>
+<div class="page">
+  <span>
+    <a href="#">1</a>
+    <a href="#">2</a>
+    <a href="#">3</a>
+    <a href="#">4</a>
+    <a href="#">5</a>
+    <a href="#">下一页></a>
+    <a href="#">末页</a>
+  </span>
+</div>
+
+<div class="footline">
+  <div class="footline_box">
+    <ul>
+      <li> <span class="footerico1">全国3000+地区免费送</span> </li>
+      <li> <span class="footerico2">1-3小时急速送达</span> </li>
+      <li> <span class="footerico3">当天制作，新鲜上门</span> </li>
+      <li> <span class="footerico4">全年无休，个性定制</span> </li>
+      <li> <span class="footerico5">支付宝，微信线上无忧支付</span> </li>
+    </ul>
+  </div>
+</div>
+
+
+<div class="foot">
+    <div class="foot_box">
+        <div class="footMenu">
+            <ul>
+                <li>
+                    <h2>购物指南</h2>
+                    <p><a href="#">购物流程</a></p>
+                    <p><a href="#">会员介绍</a></p>
+                    <p><a href="#">联系客服</a></p>
+                </li>
+                <li>
+                    <h2>配送方式</h2>
+                    <p><a href="#">送货上门</a></p>
+                    <p><a href="#">门店自取</a></p>
+                    <p><a href="#">配送范围</a></p>
+                </li>
+                <li>
+                    <h2>支付方式</h2>
+                    <p><a href="#">在线支付</a></p>
+                    <p><a href="#">银行汇款</a></p>
+                    <p><a href="#">货到付款</a></p>
+                </li>
+                <li>
+                    <h2>服务支持</h2>
+                    <p><a href="#">售后服务</a></p>
+                    <p><a href="#">退款说明</a></p>
+                    <p><a href="#">取消订单</a></p>
+                </li>
+                <li>
+                    <h2>关注我们</h2>
+                    <p><a href="#">微信公众号</a></p>
+                    <p><a href="#">七彩蛋糕APP</a></p>
+                    <p><a href="#">情人节特别提示</a></p>
+                </li>
+                <li>
+                    <h2>联系我们</h2>
+                    <p><a href="#">联系我们</a></p>
+                </li>
+            </ul>
+            <div class="col-contact">
+                <span>400-658-1177</span>
+                <p>周一至周日 24小时服务</p>
+                <a href="#">24小时在线客服</a>
+            </div>
+        </div>
+        <div class="site-info">
+            <div class="foot_logo"></div>
+            <div class="info_text">
+                <p>
+                    <a href="#">联系我们</a><span>|</span>
+                    <a href="#">关于我们</a><span>|</span>
+                    <a href="#">招商加盟</a><span>|</span>
+                    <a href="#">问题反馈</a><span>|</span>
+                    <a href="#">鲁ICP备11002183号</a><span>|</span>
+                    <a href="#">站点地图</a>
+                </p>
+                <p>Copyright©1997-2016 dangao.com All rights reserved. 青州七彩时尚电子商务有限公司-七彩蛋糕-版权所有,禁止非法复制</p>
+            </div>
+            <div class="info-links">
+                <img src="images/f-logo-1.png">
+                <img src="images/f-logo-2.png">
+                <img src="images/f-logo-3.png">
+                <img src="images/f-logo-4.png">
+                <img src="images/f-logo-5.png">
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

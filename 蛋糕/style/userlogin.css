@@ -1,0 +1,51 @@
+.header{width: 100%;height: 100px;}
+.header .header_box{width: 1200px;height: 100px;margin: 0 auto;}
+.header .header_box .header_l{width: 240px;height: 100px;float: left;line-height: 100px;}
+.header .header_box .header_l img{width: 100%;height: auto;}
+.header .header_box .header_r{float: right;width: 650px;height: 100px;}
+.header .header_box .header_r .footerline{width: 650px;padding: 27px 0px;margin-top: 10px;}
+.header .header_box .header_r .footerline ul{}
+.header .header_box .header_r .footerline ul li{width: 33%;color: #616161;float: left;font-size: 16px;}
+.header .header_box .header_r .footerline ul li .footerico1{background: url(../images/f-ico1.png) no-repeat;background-size: 19px;padding-left: 25px;}
+.header .header_box .header_r .footerline ul li .footerico2{background: url(../images/f-ico1.png) no-repeat;background-size: 19px;padding-left: 25px;}
+.header .header_box .header_r .footerline ul li .footerico3{background: url(../images/f-ico1.png) no-repeat;background-size: 19px;padding-left: 25px;}
+
+
+.bg{width: 100%;height: 475px;background: url(../images/userlogin_bg.jpg) center center;}
+.bg .bg_box{width: 1200px;height: 475px;margin: 0 auto;}
+.bg .bg_box .login{width: 500px;height: 356px;float: right;background: #fff;margin-top: 60px;margin-right: 20px;}
+.bg .bg_box .login .login_l{width: 350px;height: 356px;padding-top: 30px;border-right: 1px solid #eee;float: left;}
+.bg .bg_box .login .login_l #tab{width: 350px;height: 190px;}
+.bg .bg_box .login .login_l #tab #title{width: 280px;height: 35px;margin: 0 auto;}
+.bg .bg_box .login .login_l #tab #title li{float: left;font-size: 13px;background: #eee;width: 50%;height: 35px;line-height: 35px;text-align: center;color: #555;cursor: pointer;}
+.bg .bg_box .login .login_l #tab #title .current{background: #F25454;color: #fff;}
+.bg .bg_box .login .login_l #tab #content{width: 350px;height: 140px;}
+.bg .bg_box .login .login_l #tab #content .show{display: block;}
+.bg .bg_box .login .login_l #tab #content form{display: none;}
+.bg .bg_box .login .login_l #tab #content .form1{width: 280px;height: 140px;margin: 0 auto;}
+.bg .bg_box .login .login_l #tab #content .form1 ul{width: 280px;height: 140px;margin: 0 auto;}
+.bg .bg_box .login .login_l #tab #content .form1 ul li{width: 278px;height: 36px;border: 1px solid #ddd;margin-top: 15px;}
+.bg .bg_box .login .login_l #tab #content .form1 ul li .userico{width: 34px;height: 34px;background: url(../images/pwd-icons-new.png);background-position: 0 0;float: left;}
+.bg .bg_box .login .login_l #tab #content .form1 ul li input{width: 242px;float: left;width: 238px;height: 30px;border: none;line-height: 30px;border-left: 1px #ddd solid;margin-top: 2px;text-indent: 8px;}
+.bg .bg_box .login .login_l #tab #content .form1 ul li .passico{width: 34px;height: 34px;background: url(../images/pwd-icons-new.png);background-position: -48px 0;float: left;}
+.bg .bg_box .login .login_l #tab #content .form1 ul li .input input{width: 153px;height: 30px;}
+.bg .bg_box .login .login_l #tab #content .form1 ul li .input img{float: right;margin-top: 7px;margin-right: 10px;cursor: pointer;}
+.bg .bg_box .login .login_l #tab #content .form2{width: 280px;height: 140px;margin: 0 auto;}
+.bg .bg_box .login .login_l #tab #content .form2 ul{width: 280px;height: 140px;margin: 0 auto;}
+.bg .bg_box .login .login_l #tab #content .form2 ul li{width: 278px;height: 36px;border: 1px solid #ddd;margin-top: 15px;}
+.bg .bg_box .login .login_l #tab #content .form2 ul li .passico{width: 34px;height: 34px;background: url(../images/pwd-icons-new.png);background-position: -48px 0;float: left;}
+.bg .bg_box .login .login_l #tab #content .form2 ul li input{width: 242px;float: left;width: 238px;height: 30px;border: none;line-height: 30px;border-left: 1px #ddd solid;margin-top: 2px;text-indent: 8px;}
+.bg .bg_box .login .login_l #tab #content .form2 ul li .input input{width: 153px;height: 30px;}
+.bg .bg_box .login .login_l #tab #content .form2 ul li .input img{float: right;margin-top: 7px;margin-right: 10px;cursor: pointer;}
+.bg .bg_box .login .login_l #tab #content .form2 ul li .userico{width: 34px;height: 34px;background: url(../images/pwd-icons-new.png);background-position: 0 0;float: left;}
+.bg .bg_box .login .login_l #tab #content .form2 ul li .input #dxyzm{border: 0px;cursor: pointer;position: absolute;margin-top: 1.5px;margin-left: -30px;line-height: 25px;width: 110px;}
+.bg .bg_box .login .login_l .min_txt{width: 280px;height: 40px;margin: 0 auto;line-height: 40px;color: #555;font-size: 12px;}
+.bg .bg_box .login .login_l .min_txt span a{color: #555;font-size: 12px;}
+.bg .bg_box .login .login_l .dl{width: 280px;height: 40px;line-height: 40px;text-align: center;background-color: #F25454;color: #fff;margin: 0 auto;cursor: pointer;font-size: 16px;}
+.bg .bg_box .login .login_l .txt_btn{width: 280px;height: 40px;line-height: 40px;margin: 0 auto;color: #555;font-size: 15px;}
+.bg .bg_box .login .login_l .txt_btn a{color: red;}
+.bg .bg_box .login .login_r{width: 149px;height: 356px;float: right;text-align: center;padding: 15px 0px;}
+.bg .bg_box .login .login_r img{width: 120px;height: 120px;}
+.bg .bg_box .login .login_r p{font-size: 12px;color: #000;margin-bottom: 10px;}
+
+
